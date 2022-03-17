@@ -1,0 +1,51 @@
+.section1 {
+    height: 900px;
+    background-image: url(../image/jeju2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top ;
+    /* padding: 80px 0; */
+    /* position: relative; */
+}
+
+
+.section2 {
+    height: 450px;
+    background-color: rgb(254, 244, 225);
+}
+
+.section2 .row p {
+    padding: 130px 20px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(255, 166, 119);
+}
+
+.section3 .row>h6 {
+    font-size: 40px;
+    text-align: center;
+    padding: 100px 0 0 0;
+    color: rgb(255, 204, 117);
+}
+
+.section3 .row>p {
+    font-size: 20px;
+    text-align: center;
+    color:  rgb(255, 166, 119) ;
+    padding-top: 25px;
+}
+.section3 li {
+    float: left;
+    width: 32%;
+    margin-right: 2%;
+
+}
+
+.section3 li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.section3 li:nth-child(5n) {
+    width: 64%;
+}
